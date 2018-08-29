@@ -1,0 +1,11 @@
+Package: xlsxSimple
+Title: A Simple Interface to the xlsx Package
+Version: 2.0.0
+Authors@R: person("Charles", "Scheid", email = "chharleshscheid@gmail.com", role = c("aut", "cre"))
+Description: A simple way to save tabular data and plots as XLSX workbooks.
+Depends: R (>= 3.5.1)
+Imports: xlsx (>= 0.6.1)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
