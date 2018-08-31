@@ -1,5 +1,6 @@
 Package: xlsxSimple
 Title: A Simple Interface to the xlsx Package
+Date/Publication: 2018-07-30
 Version: 2.0.0
 Authors@R: person("Charles", "Scheid", email = "chharleshscheid@gmail.com", role = c("aut", "cre"))
 Description: A simple way to save tabular data and plots as XLSX workbooks.
