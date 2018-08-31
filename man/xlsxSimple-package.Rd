@@ -12,9 +12,9 @@ A simple interface to the \pkg{xlsx} package, simplifying the task of sending a 
 This requires the \pkg{xlxs} package and the Java run time environment. Which means that it will only run with the version of Java that you have installed and running. You may need to install with one of:
 
 \itemize{
-\item \code{install.packages(file.choose(), INSTALL_opts="--no-multiarch")}
-\item \code{install(path, args = "--no-multiarch")}
-\item \code{install_github("But-I-Digress/xlsxSimple", args = "--no-multiarch")}
+\item \code{utils::install.packages(file.choose(), INSTALL_opts="--no-multiarch")}
+\item \code{devtools::install(path, args = "--no-multiarch")}
+\item \code{devtools::install_github("But-I-Digress/xlsxSimple", args = "--no-multiarch")}
 }
 }
 \section{Changes With This Release}{
