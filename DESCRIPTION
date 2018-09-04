@@ -6,7 +6,7 @@ Authors@R: person("Charles", "Scheid", email = "chharleshscheid@gmail.com", role
 URL: https://github.com/But-I-Digress/xlsxSimple
 BugReports: https://github.com/But-I-Digress/xlsxSimple/issues
 Description: A simple way to save tabular data and plots as XLSX workbooks.
-Depends: R (>= 3.5.1)
+Depends: R (>= 3.5.0)
 Imports: xlsx (>= 0.6.1)
 License: GPL-3
 Encoding: UTF-8
