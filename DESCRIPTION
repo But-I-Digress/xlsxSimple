@@ -1,7 +1,7 @@
 Package: xlsxSimple
 Title: A Simple Interface to the xlsx Package
 Date/Publication: 2018-07-30
-Version: 2.0.0
+Version: 2.0.1
 Authors@R: person("Charles", "Scheid", email = "chharleshscheid@gmail.com", role = c("aut", "cre"))
 URL: https://github.com/But-I-Digress/xlsxSimple
 BugReports: https://github.com/But-I-Digress/xlsxSimple/issues

@@ -22,8 +22,8 @@ devtools::install_github("But-I-Digress/xlsxSimple", args = "--no-multiarch")
 # To create a workbook explicitly and use it:
 createWorkbook() -> book
 toSheet(book, mtcars, "mtcars") -> sheet
-addHyperLinks(sheet, "Google", "http://google.com"); 
-saveWokbook(book, start = TRUE)
+addHyperLinks(sheet, "Google", "http://google.com")
+saveWorkbook(book, start = TRUE)
 
 # To use the default workbook:
 

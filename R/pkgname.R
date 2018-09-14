@@ -26,7 +26,7 @@
 #' \dontrun{
 #' createWorkbook() -> book
 #' toSheet(book, mtcars, "mtcars") -> sheet
-#' addHyperLinks(sheet, "Google", "http://google.com"); 
+#' addHyperLinks(sheet, "Google", "http://google.com")
 #' saveWokbook(book, start = TRUE)
 #'
 #' library(ggplot2)
