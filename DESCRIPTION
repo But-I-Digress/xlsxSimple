@@ -8,7 +8,10 @@ BugReports: https://github.com/But-I-Digress/xlsxSimple/issues
 Description: A simple way to save tabular data and plots as XLSX workbooks.
 Depends: R (>= 3.5.0)
 Imports: xlsx (>= 0.6.1)
-License: GPL-3
+License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
