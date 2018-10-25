@@ -10,7 +10,7 @@
 \alias{toSheet.ggplot}
 \title{Send something to a sheet}
 \usage{
-toSheet(x, workbook, title, ...)
+toSheet(x, workbook, sheetName, ...)
 
 \method{toSheet}{data.frame}(d, workbook = getWorkbook(),
   sheetName = getSheetName(workbook), auto.filter = TRUE,
@@ -38,7 +38,7 @@ toSheet(x, workbook, title, ...)
 
 \item{workbook}{An optional xlsx work book.}
 
-\item{title}{Character, an optional title for the new sheet.}
+\item{sheetName}{Character, an optional title for the new sheet.}
 
 \item{...}{Other parameters to pass to addDataFrame.}
 

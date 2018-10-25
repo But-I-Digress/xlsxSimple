@@ -4,13 +4,14 @@
 \alias{saveWorkbook}
 \title{Save Work Book}
 \usage{
-saveWorkbook(workbook = getWorkbook(), file.path = thisFile(), title = NA,
-  subject = NA, creator = Sys.getenv("USERNAME"), start = FALSE)
+saveWorkbook(workbook = getWorkbook(), filePath = thisFile(),
+  title = NA, subject = NA, creator = Sys.getenv("USERNAME"),
+  start = FALSE)
 }
 \arguments{
 \item{workbook}{An optional xlsxSimple workbook.}
 
-\item{file.path}{An optional character scalar, the path and filename for the file.}
+\item{filePath}{An optional character scalar, the path and filename for the file.}
 
 \item{title}{An optional character scalar, the title of the workbook.}
 
@@ -27,7 +28,7 @@ A character scalar, the path of the file, invisibly.
 \code{saveWorkbook} saves an Excel workbook on the file system, setting the metadata. Optionally, the file is opened in Excel.
 }
 \note{
-If the \code{file.path} does not end with ``.xlsx'' then the fiile extension will be set to ``.xlsx''. If \code{file,path} is omitted then the script file path will be used, but that extension substiuted. But an error it thrown if \code{file.path} is omitted in interactive mode.
+If the \code{filePath} does not end with ``.xlsx'' then the fiile extension will be set to ``.xlsx''. If \code{file,path} is omitted then the script file path will be used, but that extension substiuted. But an error it thrown if \code{filePath} is omitted in interactive mode.
 }
 \examples{
 
