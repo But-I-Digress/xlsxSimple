@@ -1,3 +1,11 @@
+# xlsxSimple 2.1.0
+
+* The "file.path" parameter has been changed to "filePath" to follow the naming convention 
+used elsewhere. The xlsx package uses camel case.  
+
+* An error in the documentation was corrected. The generic for `toSheet()` was incorrectly 
+showing a "title" parameter where it should have said "sheetName"
+
 # xlsxSimple 2.0.0
 
 * The “book” parameter has been renamed “workbook” to more closely follow the usage in the
