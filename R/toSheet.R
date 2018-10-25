@@ -14,7 +14,7 @@ getSheetName <- function (workbook) sprintf("Sheet%1.0f", workbook$getNumberOfSh
 #'
 #' @param x A data frame, plot or path to a saved plot.
 #' @param workbook An optional xlsx work book.
-#' @param title Character, an optional title for the new sheet.
+#' @param sheetName Character, an optional title for the new sheet.
 #'
 #' @return A worksheet object, invisibly.
 #'
@@ -29,7 +29,7 @@ getSheetName <- function (workbook) sprintf("Sheet%1.0f", workbook$getNumberOfSh
 #'	toSheet(p)
 #' }
 #' @export 
-toSheet <- function (x, workbook, title, ...) UseMethod("toSheet")
+toSheet <- function (x, workbook, sheetName, ...) UseMethod("toSheet")
 
 #' @describeIn toSheet Send a data frame to a work sheet.
 #'
