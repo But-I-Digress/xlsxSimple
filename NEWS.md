@@ -1,4 +1,4 @@
-# xlsxSImple 2.2.0
+# xlsxSimple 2.2.0
 
 * `toExcel()` added. This is a convenience function can be used in place of calling `toSheet()` 
   and then `saveWorkbook()` when you want to look at one data frame or one image. 
