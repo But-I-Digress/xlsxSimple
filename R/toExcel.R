@@ -21,5 +21,5 @@
 #' @export
 toExcel <- function (x, filePath = thisFile(), title = NA, subject = NA, creator = Sys.getenv("USERNAME"), start = TRUE, ...) {
 	toSheet(x, ...)
-	saveWorkbook(filePath, title, subject, creator, start)
+	saveWorkbook(filePath = filePath, title = title, subject = subject, creator = creator, start = start)
 }
