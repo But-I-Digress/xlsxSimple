@@ -64,6 +64,14 @@ toSheet.data.frame <- function (d, workbook = getWorkbook(), sheetName = getShee
 }
 
 #' @describeIn toSheet Send a tibble to a work sheet.
+#' @export
+toSheet.sf <- function (d, workbook = getWorkbook(), sheetName = getSheetName(workbook), ...) {
+	sf::st_geometry(d) <- NULL
+	toSheet.data.frame(as.data.frame(d),  workbook, sheetName, ...)
+}
+
+
+#' @describeIn toSheet Send a tibble to a work sheet.
 #' @export 	
 toSheet.tbl_df <- function (d, workbook = getWorkbook(), sheetName = getSheetName(workbook), ...) toSheet.data.frame(as.data.frame(d),  workbook, sheetName, ...)
 
