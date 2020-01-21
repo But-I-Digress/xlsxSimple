@@ -1,3 +1,7 @@
+# xlsxSimple 2.2.1
+
+`toSheet.sf()` added. This converts a simple feature to a data frame, removing the geometry, and sends it to a worksheet.
+
 # xlsxSimple 2.2.0
 
 * `toExcel()` added. This is a convenience function can be used in place of calling `toSheet()` 
